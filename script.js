@@ -10,3 +10,6 @@ function jump() {
     character.classList.remove("animate");
   }, 300);
 }
+document.getElementById("showImage").onclick = function() {
+    document.getElementById("theImage").style.visibility = "visible";
+}
